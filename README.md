@@ -1,6 +1,7 @@
 # kafka_consumer_monitor_go
 monitor the pending message count of consumer of kafka: native or storm consumer
 
+# 我的第一个golang的程序^_^  处女作
 监控kafka的消费者，在特定topic下的各个partition分区下，有多少未消费的消息；
 如果超过特定阈值，打印日志，并发送邮件；
 
