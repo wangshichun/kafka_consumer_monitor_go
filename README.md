@@ -20,6 +20,7 @@ receiver = wangshichun@dangdang.com
 
 # "zookeeper.connect" in kafka server.properties
 zkConnectStr = 10.255.209.46:2181,10.255.209.47:2181
+# if the namespace is the zookeeper root, leave this property blank
 zkNamespace = /kafka
 
 # topic and consumer name
